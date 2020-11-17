@@ -1,6 +1,6 @@
 package star1;
 
-class River {
+class River extends StarUnit{
 	//1. 상태
 	String name;
 	int hp;
@@ -18,6 +18,31 @@ class River {
 	public River() {
 		
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
 	
 	//4. 변수의 값을 변경하거나 확인하는 행위가 필요!!
+	
 }
