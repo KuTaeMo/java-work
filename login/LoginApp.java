@@ -17,6 +17,7 @@ public class LoginApp {
 		userinfo(n);
 		Kakao k=new Kakao();
 		userinfo(k);
+		Daum d=new Daum();
+		userinfo(d);
 	}
-
 }
