@@ -6,6 +6,7 @@ import java.awt.BorderLayout;
 import javax.swing.JButton;
 import java.awt.Color;
 import javax.swing.JLabel;
+import javax.swing.JComboBox;
 
 public class Swing04 extends JFrame {
 
@@ -44,6 +45,10 @@ public class Swing04 extends JFrame {
 		jp2.add(la1);
 		jp2.add(la2);
 		jp2.add(la3);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(44, 195, 32, 23);
+		jp2.add(comboBox);
 	}
 	
 	public Swing04() {
